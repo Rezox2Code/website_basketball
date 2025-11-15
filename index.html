@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil · ABC Méru</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html"><img src="img/logo.png" alt="Logo ABC Méru" class="logo"></a>
+    <nav>
+      <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="photos.html">Album photos</a></li>
+            <li><a href="scores.html">Scores</a></li>
+            <li><a href="liens.html">Liens</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Bannière -->
+  <section class="banner">
+    <h1>
+      <img src="img/basket.png" alt="Ballon de basket">
+      LE CLUB DE BASKET - ABC MÉRU
+      <img src="img/basket.png" alt="Ballon de basket">
+    </h1>
+  </section>
+
+  <!-- Image principale -->
+  <section class="main-image">
+    <img src="img/gym.png" alt="Gymnase du club">
+  </section>
+
+  <!-- Message important -->
+  <section class="info">
+    <p>Les entraînements : Seulement les joueurs à jour du paiement de leur licence auront accès au terrain.</p>
+  </section>
+  <br><br><br><br><br><br><br><br>
+  <div id="contact">
+    <h1>Contactez-Nous</h1>
+  <form class="contact-form" action="https://formspree.io/f/mldwaqqb" method="POST"target="_blank">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+    <label for="sujet">Sujet de votre demande</label>
+    <input type="text" id="sujet" name="sujet" placeholder="Sujet" required>
+
+    <label for="message">Votre message</label>
+    <textarea id="message" name="message" placeholder="Votre message..." rows="6" required></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+  <br><br>
+  </div>
+
+</body>
+</html>
